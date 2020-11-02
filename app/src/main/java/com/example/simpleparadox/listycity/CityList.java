@@ -77,4 +77,14 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    public boolean containsCity(City city) {
+        if (cities.contains(city)) {
+            return true;
+        }
+
+        else {
+            return false;
+        }
+    }
 }
