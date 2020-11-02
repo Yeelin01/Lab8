@@ -57,7 +57,7 @@ public class CityList {
      *      Candidate city to delete
      */
     public void delete(City city) {
-        if (!hasCity(city)) {
+       if (!hasCity(city)) {
             throw new IllegalArgumentException();
         }
 
