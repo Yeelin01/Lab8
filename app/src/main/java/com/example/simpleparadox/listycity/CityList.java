@@ -79,6 +79,12 @@ public class CityList {
     }
 
     public boolean containsCity(City city) {
-        return false;
+        if (cities.contains(city)) {
+            return true;
+        }
+
+        else {
+            return false;
+        }
     }
 }
